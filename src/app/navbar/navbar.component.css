@@ -10,7 +10,11 @@
     
 }
 .nav h2{
-    color:white;
+    color:whitesmoke;
+    font-family: monospace;
+}
+.nav h2:hover{
+    color: rgb(133, 31, 31);
 }
 .nav div{
     display: flex;
@@ -20,10 +24,20 @@
 
 }
 .nav div a{
-    color:white ;
+    font-size: 12px;
+    color:whitesmoke;
     text-decoration: none;
+    font-family: monospace;
+}
+.nav div a:hover{
+    font-size: 14px;
+    color: rgb(133, 31, 31);
+
 }
 .nav img{
   height: 100%;
+}
+.nav img:hover{
+  height: 105%;
 }
 
