@@ -1,0 +1,29 @@
+.nav{
+    display: flex;
+    height: 5em;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+
+
+
+    
+}
+.nav h2{
+    color:white;
+}
+.nav div{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    padding-right: 5%;
+
+}
+.nav div a{
+    color:white ;
+    text-decoration: none;
+}
+.nav img{
+  height: 100%;
+}
+
